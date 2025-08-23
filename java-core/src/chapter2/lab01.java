@@ -13,7 +13,7 @@ public class lab01 {
 		float diem = scanner.nextFloat();
 		
 		System.out.printf("%s có điểm = %.1f",name,diem);
-		
+		scanner.close();
 	}
 
 }

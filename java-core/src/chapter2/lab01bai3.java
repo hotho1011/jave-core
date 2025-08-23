@@ -13,6 +13,7 @@ public class lab01bai3 {
 		int a = scanner.nextInt();
 		int the_tich = (int)Math.pow(a, 3);
 		System.out.print("Thể tích của khối lập phương là: "+ the_tich);
+		scanner.close();
 	}
 
 }

@@ -15,6 +15,6 @@ public class lab01bai2 {
 		System.out.println("Chu vi hinh chu nhat là: " +chu_vi);
 		System.out.println("Dien tich hinh chu nhat là: " +dien_tich);
 		System.out.println("cạnh nhỏ nhất là: " +min);
-		
+		scanner.close();
 	}
 }
