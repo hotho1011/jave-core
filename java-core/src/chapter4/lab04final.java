@@ -25,7 +25,6 @@ public class lab04final {
 			
 			int choose= 0;
 			
-			do {
 				System.out.println("--------------------");
 				System.out.println("====MENU====");
 				System.out.println("1. Tính điểm trung bình");
@@ -59,12 +58,10 @@ public class lab04final {
 					}
 					break;
 				}
+				case 3: return;
 				default: System.out.println("Lựa chọn không hợp lệ, mời chọn lại");
 					
 				}
-				
-				
-			}while(choose ==3);
 			
 			
 			
